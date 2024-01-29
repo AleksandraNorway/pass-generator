@@ -85,16 +85,15 @@ label {
 }
 .rand-number {
     background-color: #273549;
- 
-    background: #273549;
     border-radius: 6px;
     border: none;
     text-align: center;
      color: #55F991;
      font-weight: bold;
     font-size: 1.1rem;
-     padding: 1rem 2rem;
-    
+     padding: 0.5rem 2rem;
+      width: 100%;
+     min-width: 0; /* To ensure it can shrink as needed */ 
 }
 main {
     min-width: 360px;
@@ -105,9 +104,11 @@ main {
 #alert-text-error {
     color: red;
 }
-.conteiner-pass {
+.container-pass {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+  
+    justify-content: space-between; /* Adjust as needed */
 }
 span {
      font-weight: bold;
