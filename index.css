@@ -1,96 +1,116 @@
-body {
+html{
     margin: 0;
-    background: #1B244A; 
+    padding: 0;
 }
-
-
-h3 {
-    color: #EEE;
-    text-align: center;
-    font-family: Verdana;
-    font-size: 2.7rem;
-    font-weight: 700;
-    line-height: 2.24331rem; /* 89.732% */
-    width: 100%;
-    margin: 10px 0px;
-    padding: 0px;
-}
-.container {
+body {
+    color: #fff;
+    background-color: #1F2937;
+    margin: 3em 1em;
     display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    height: 100vh;
-    min-width: 400px;
-}
-.score {
-    font-family: 'Cursed Timer ULiL', sans-serif;
-    color: #F94F6D;
-    text-align: center;
-    font-family: "Cursed Timer ULiL";
-    font-size: 5.625rem;
-    font-weight: 400;
-    line-height: 7.91663rem; /* 140.74% */
-    background-color: #080001;
-    width: 100%;
-    height: 7.5rem;
-    margin-bottom: 10px;
-    margin-top: 30px;
-    border-radius: 10px;
-}
-
-.container-home,
-.container-guest {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    width: 9.6875rem;
-    max-width: 1050px;
-    
+}
+span {
+    color: #10B981;
+}
+h1 {
+    font-family: 'Karla';
+    font-weight: 800;
+font-size: 40px;
+line-height: 40px;
+
+/* or 100% */
+letter-spacing: -0.025em;
+}
+h3 {
+ font-family: 'Inter';
+
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+margin-top: 1em;
+margin-bottom: 1em;
+color: #D5D4D8;
+
+
+}
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Inter';
+    align-items: center;
+    background: #10B981;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    width: 223px;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    padding: 1rem 2rem;
+    min-width: 311px;
+    font-size: 1.1rem;
+   
+}
+button:hover {
+    background-color: green;
 }
 
-.container-points {
-    display: flex;
-   justify-content: space-between;
-   width: 100%
+
+
+.pass-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: .5em;
 }
- .points {
-    border-radius: 0.3125rem;
-    border: 2px solid #9AABD8;
-    color: #9AABD8;
-    text-align: center;
-    font-family: "Cursed Timer ULiL";
-    font-size: 1.125rem;
-    font-weight: 400;
-    line-height: 1.25rem; /* 154.509% */
-    padding: 0.6rem;
-    flex-shrink: 0;
-    
- }
- 
- .points:hover {
-     border-color: #fff;
- }
- 
- .highliter {
-       border: 2px solid #9AABD8;
- }
- button {
-     max-width: 400px;
-     align-self: center;
-     padding: 1rem 2.2rem;
-     margin: 1rem;
-    text-align: center;
-    font-family: Verdana;
-    font-size: 1.125rem;
-    font-weight: bold;
-    color: #1B244A; 
-    border-radius: 10px;
+hr {
+    border: 1px solid #2F3E53;
+   
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+input{
+   width: 211px;
+    background: #273549;
+    border-radius: 6px;
     border: none;
-     
- }
- .wraper {
-     display: flex;
-     justify-content: space-around;
- }
+    text-align:center;
+    color: #55F991;
+    font-weight: bold;
+    font-size: 1.1rem;
+   
+}
+label {
+    color: #D5D4D8;
+}
+.rand-number {
+    background-color: #273549;
+ 
+    background: #273549;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+     color: #55F991;
+     font-weight: bold;
+    font-size: 1.1rem;
+     padding: 1rem 2rem;
+    
+}
+main {
+    min-width: 360px;
+}
+#alert-text {
+    color: yellow;
+}
+#alert-text-error {
+    color: red;
+}
+.conteiner-pass {
+    display: flex;
+    justify-content: space-between;
+}
+span {
+     font-weight: bold;
+    font-size: 1.1rem;
+    color: white;
+}
