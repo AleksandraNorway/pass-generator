@@ -114,3 +114,12 @@ span {
     font-size: 1.1rem;
     color: white;
 }
+.emphasize {
+    color: #4ADF86;
+    font-family: Karla;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 800;
+line-height: 2.5rem;
+letter-spacing: -0.0625rem;
+}
