@@ -12,6 +12,7 @@ generatePass.addEventListener('click', function(){
     randNumberTwo.textContent = ""
     if(inputNumber.value < 6) {
        alertTextError.innerHTML = "Amount to small, try higher number...!"
+     alertText.innerHTML = " "
     } else {
           for (let i=0; i < inputNumber.value; i++) {
          let newPassOne = Math.floor(Math.random() * characters.length)
